@@ -6,19 +6,19 @@ export default function Rodape() {
             <section>
                 <ul>
                     <li>
-                        <a href='facebook.com' target='_blank'>
+                        <a href='https://facebook.com' target='_blank' rel='noreferrer'>
                             <img src='imagens/fb.png' alt='' />    
                         </a>  
                     </li>
 
                     <li>
-                        <a href='twitter.com' target='_blank'>
+                        <a href='https://twitter.com' target='_blank' rel='noreferrer'>
                             <img src='/imagens/tw.png' alt=''/>
                         </a>
                     </li>
 
                     <li>
-                        <a href='instagram.com' target='_blank'>
+                        <a href='http://instagram.com' target='_blank' rel='noreferrer'>
                         <img src='imagens/ig.png' alt=''/>
                         </a>
                     </li>
@@ -26,7 +26,7 @@ export default function Rodape() {
             </section>
             
             <section>
-                <img src='/imagens/logo.png' alt='logo organo'/>
+                <img src='/imagens/logo.png' alt='logo organo' />
             </section>
             
             <section>
