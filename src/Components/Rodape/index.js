@@ -30,7 +30,7 @@ export default function Rodape() {
             </section>
             
             <section>
-                <p>Desenvolvido pela sua mãe</p>
+                <p>Desenvolvido por Caio Mognatti</p>
             </section>
         </footer>
     )
