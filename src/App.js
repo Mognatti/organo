@@ -1,10 +1,14 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Banner from './Components/Banner/Banner';
 import Formulario from './Components/Formulario';
 import Rodape from './Components/Rodape';
 import Times from './Components/Times';
 
 function App() {
+
+  useEffect(() => {
+    document.title = 'Organo'
+  });
 
   const times = [ 
     {
@@ -47,7 +51,6 @@ function App() {
 
   const aoDefColab = (colaborador) => {
     setColaboradores([...colaboradores, colaborador])
-
   }
 
   return (
